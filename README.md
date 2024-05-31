@@ -1,12 +1,11 @@
-# A Risk Screen written in Rust
+# A Tool for Helping Me Pick Stocks
 
-Makes use of the yahoo_finance_api on crates.io: https://crates.io/crates/yahoo_finance_api
+Given a Stock Industry I would like the following computed:
 
-Will calculate the following metrics:
+Basic Financials:
+1. Total Current Assets/Total Current Liabilities: Ideally above 1
+2. Operating Income/Total Revenue x 100: Ideally above 15%
+3. Free Cash Flow YOY increase: Ideally positive
+4. P/E Ratio for pricing
 
-Alpha
-Beta
-R-Squared
-Standard Deviation
-Sharpe Ratio
-Risk
+# How to run

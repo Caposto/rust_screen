@@ -3,6 +3,10 @@ use std::time::{Duration, UNIX_EPOCH};
 use yahoo_finance_api::time::OffsetDateTime;
 use tokio_test;
 
+fn pull_data() {
+    
+}
+
 fn main() {
     let provider = yahoo::YahooConnector::new();
     // get the latest quotes in 1 minute intervals
